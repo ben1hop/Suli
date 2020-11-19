@@ -1,0 +1,27 @@
+Soroljuk fel 10-től visszafelé -10-ig a számokat!
+
+Solution> 
+[10,9..(-10)]
+
+
+Adjuk meg a 113. elemét annak a számtani sorozatnak, amelynek az első két eleme 11 és 32!
+
+Solution> 
+[11,32..] !! 112
+
+
+Hányféleképpen lehet sorba rendezni 10 különböző elemet?
+
+Solution> 
+product [1..10]
+
+
+Hányféleképpen választhatunk ki 70 különböző elemből 30 elemet?
+
+Solution> 
+product [41..70] `div` product [1..30]
+
+Mi a több: az univerzumban az atomok száma, vagy 100 elem különböző sorba rendezéseinek a száma?
+
+Test> 
+10 ^ 82 < product [1..100]
