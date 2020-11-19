@@ -1,3 +1,5 @@
+{-Source: http://lambda.inf.elte.hu/GoedelNumberingZH.xml-}
+
 import Prelude
 import Data.List
 
