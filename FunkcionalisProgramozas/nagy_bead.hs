@@ -3,16 +3,6 @@
 import Prelude
 import Data.List
 
-type Dictionary = [(Char, Integer)]
-
-dictionary :: [Char] -> Dictionary
-dictionary x = zip x [1..]
-
-dictionary_az = dictionary ['a'..'z']
-
-dictionary_az_AZ = dictionary (['a'..'z']  ++ ['A'..'Z'])
-
-
 
 
 charToNum :: Dictionary -> Char -> Integer
@@ -67,8 +57,6 @@ translate dic text = [ charToNum dic x | x<-text ]
 
 
 
-
-
 encode :: Dictionary -> String -> Integer
 {-- 4. FELADAT ----------------------------------------}
 
@@ -99,8 +87,6 @@ primeFactorization = unfoldr firstFactor
   where
     firstFactor n = listToMaybe [(f, n `div` f) | f <- [2..n] , n `mod` f == 0]
 -}
-
-
 
 
 
