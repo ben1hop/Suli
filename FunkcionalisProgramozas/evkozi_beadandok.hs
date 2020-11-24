@@ -23,3 +23,10 @@ toUpperLongs xs = unwords [ if length w > 3 then toUpperFirst w else w | w <-wor
 slice :: [Int] -> [a] -> [[a]]
 slice [] n = []
 slice (n:ns) l = take n l : slice ns (drop n l)
+
+{-9-}
+import Prelude hiding (until)
+until :: (a -> Bool) -> (a -> a) -> a -> a
+until cond step start
+    | cond start = start
+    | otherwise = until cond step (step start)
