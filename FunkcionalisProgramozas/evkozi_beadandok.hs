@@ -24,6 +24,13 @@ slice :: [Int] -> [a] -> [[a]]
 slice [] n = []
 slice (n:ns) l = take n l : slice ns (drop n l)
 
+{-7-}
+pack xs n 
+    | n == 0 = [[]]
+    | n < 0 = []
+    | n > sum xs = []
+pack (x:xs) n = pack xs n ++ [ x:cs | cs <- pack xs (n-x) ]
+
 {-8-}
 atfogo :: [Double] -> [Double] -> [Double]
 atfogo [] _ = []
