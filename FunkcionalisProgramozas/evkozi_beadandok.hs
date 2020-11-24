@@ -24,6 +24,12 @@ slice :: [Int] -> [a] -> [[a]]
 slice [] n = []
 slice (n:ns) l = take n l : slice ns (drop n l)
 
+{-8-}
+atfogo :: [Double] -> [Double] -> [Double]
+atfogo [] _ = []
+atfogo _ [] = []
+atfogo (x:xs) (y:ys) = sqrt (x^2+y^2) : atfogo xs ys
+
 {-9-}
 import Prelude hiding (until)
 until :: (a -> Bool) -> (a -> a) -> a -> a
