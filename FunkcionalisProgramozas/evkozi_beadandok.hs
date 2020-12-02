@@ -43,3 +43,11 @@ until :: (a -> Bool) -> (a -> a) -> a -> a
 until cond step start
     | cond start = start
     | otherwise = until cond step (step start)
+
+{-10-}
+import Data.List
+import Data.Function
+divisors :: Integer -> [Integer]
+divisors n = 1 : filter ((==0) . rem n) [2 .. n `div` 2]
+maxDivisorsUntil :: Integer -> Integer
+maxDivisorsUntil n = fst ( maximumBy (compare `on` snd) [(x,y) | x<-[1..n] , let y = toInteger (length (divisors x))]  )
