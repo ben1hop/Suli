@@ -1,0 +1,10 @@
+Beno 2019 ijaszat 5 uszas 5 futas 3
+Beno 2019 ijaszat 4
+Kira 2019 ijaszat 5 uszas 1 futas 3
+Kira 2019 ijaszat 4 futas 3
+Tibi 2019 bicikli 3 ijaszat 5
+Jani 2019 futas 3 bicikli 2 uszas 2
+Jani 2020 futas 2 bicikli 1 uszas 3 torna 5
+Jani 2021 futas 2 bicikli 1 uszas 4 ijaszat 1
+Peti 2020 futas 1 bicikli 3 uszas 4 torna 4
+Peti 2021 futas 1 bicikli 2 uszas 2 ijaszat 2
