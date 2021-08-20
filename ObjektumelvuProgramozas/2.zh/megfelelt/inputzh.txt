@@ -1,0 +1,6 @@
+1 Candide_FC ElVideoton 2 2 Kunigunda_FC Nem_Barcelona 2 1
+3 ElVideoton Nem_Barcelona 1 1
+4 Csapat1 Csapat2 0 0 Csapat1 Csapat2 0 0 Csapat1 Csapat4 0 0 Csapat1 Csapat2 0 0
+5 Csapat1 Csapat2 0 0 Csapat1 Csapat2 0 0 Csapat1 Csapat2 0 0 Csapat1 Csapat2 0 0 Csapat2 0 0
+6 Candide_FC ElVideoton 2 2 Kunigunda_FC Nem_Barcelona 2 1
+9 ElVideoton Nem_Barcelona 1 1
